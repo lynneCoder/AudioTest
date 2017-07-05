@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>musicName</key>
+		<string>包师语-彩虹</string>
+		<key>musicFilePath</key>
+		<string>包师语 - 彩虹 (Live)</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>宋冬野-安河桥</string>
+		<key>musicFilePath</key>
+		<string>宋冬野 - 安河桥</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>徐歌阳-一万次悲伤</string>
+		<key>musicFilePath</key>
+		<string>徐歌阳 - 一万次悲伤 (Live)</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>徐歌阳-追梦赤子心</string>
+		<key>musicFilePath</key>
+		<string>徐歌阳 - 追梦赤子心 (Live)</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>曾敏杰-伤痕</string>
+		<key>musicFilePath</key>
+		<string>曾敏杰 - 伤痕 (Live)</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>朴翔-把悲伤留给自己</string>
+		<key>musicFilePath</key>
+		<string>朴翔 - 把悲伤留给自己 (Live)</string>
+	</dict>
+	<dict>
+		<key>musicName</key>
+		<string>陈奕迅-陪你度过漫长岁月</string>
+		<key>musicFilePath</key>
+		<string>陈奕迅 - 陪你度过漫长岁月 (国语)</string>
+	</dict>
+</array>
+</plist>
