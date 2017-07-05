@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="e9Y-n8-2YF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--控制器二-->
+        <scene sceneID="jai-xn-BVn">
+            <objects>
+                <viewController id="vCM-GJ-AIR" customClass="SecondVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pmx-La-If9"/>
+                        <viewControllerLayoutGuide type="bottom" id="vQ4-eO-k6j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LoW-jg-UuI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1w-ia-fpB">
+                                <rect key="frame" x="156" y="318" width="62" height="30"/>
+                                <state key="normal" title="播放音乐"/>
+                                <connections>
+                                    <segue destination="lug-XD-n0I" kind="push" id="u2G-0F-Kga"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G1w-ia-fpB" firstAttribute="centerX" secondItem="LoW-jg-UuI" secondAttribute="centerX" id="Kg6-Kf-aSR"/>
+                            <constraint firstItem="G1w-ia-fpB" firstAttribute="centerY" secondItem="LoW-jg-UuI" secondAttribute="centerY" id="o64-Kx-Fuw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="控制器二" id="e3L-Ii-c1f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2R-dV-Cgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1442.4000000000001" y="365.66716641679164"/>
+        </scene>
+        <!--简易播放器-->
+        <scene sceneID="Yeb-Cc-lAl">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="lug-XD-n0I" customClass="AudioPlayerVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sjQ-cY-3T7"/>
+                        <viewControllerLayoutGuide type="bottom" id="efU-x9-DJr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Olo-7i-RMW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="简易播放器" id="Vx3-vC-dw1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksF-Ex-wf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2340" y="158"/>
+        </scene>
+        <!--控制器一-->
+        <scene sceneID="sLw-wl-9WA">
+            <objects>
+                <viewController id="jpO-04-XrO" customClass="FirstVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EHF-Za-QUj"/>
+                        <viewControllerLayoutGuide type="bottom" id="RgZ-a3-UKM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="91D-IT-V4w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRl-d5-ssJ">
+                                <rect key="frame" x="156" y="318.5" width="62" height="30"/>
+                                <state key="normal" title="播放音乐"/>
+                                <connections>
+                                    <segue destination="lug-XD-n0I" kind="push" id="S03-1c-vH4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TRl-d5-ssJ" firstAttribute="centerX" secondItem="91D-IT-V4w" secondAttribute="centerX" id="AOg-YO-qYy"/>
+                            <constraint firstItem="TRl-d5-ssJ" firstAttribute="centerY" secondItem="91D-IT-V4w" secondAttribute="centerY" id="dJn-nn-idi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="控制器一" id="Xkt-bv-U2u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9I-w4-hAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1440.8" y="-290.10494752623691"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3Jq-lV-MAy">
+            <objects>
+                <tabBarController id="e9Y-n8-2YF" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="gPa-aw-qmj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="df9-aW-gl7" kind="relationship" relationship="viewControllers" id="Ikv-Xc-81j"/>
+                        <segue destination="Raz-VS-DhV" kind="relationship" relationship="viewControllers" id="aEQ-Ht-JvV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5eG-2n-ibw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-451" y="39"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="caP-aa-zKg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="df9-aW-gl7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" image="media触摸" selectedImage="media触摸" id="Ktr-S8-GHG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FtY-YR-gpa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jpO-04-XrO" kind="relationship" relationship="rootViewController" id="znY-ds-ge5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cL-e0-oJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501.60000000000002" y="-290.10494752623691"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="QO1-U5-pb4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Raz-VS-DhV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" image="news" selectedImage="news" id="ePh-HG-Nt0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eM9-YE-WC4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vCM-GJ-AIR" kind="relationship" relationship="rootViewController" id="kNr-Mz-Sxg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IFW-C5-SBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="503.19999999999999" y="365.66716641679164"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="media触摸" width="16" height="16"/>
+        <image name="news" width="16" height="16"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="u2G-0F-Kga"/>
+    </inferredMetricsTieBreakers>
+</document>
