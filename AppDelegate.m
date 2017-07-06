@@ -17,8 +17,8 @@
 @end
 
 @implementation AppDelegate
-
-
+//Test 在父项目里面改子项目 push到子项目里
+//Test 在子项目里面改动  父项目pull最新的子项目代码
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     /*
